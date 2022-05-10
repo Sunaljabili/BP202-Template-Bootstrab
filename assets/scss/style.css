@@ -1,0 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar .collapse ul li a {
+  text-decoration: none;
+}
+
+.navbar .collapse ul li a:hover {
+  text-decoration: underline;
+}
+
+#pricing .title-description {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#pricing .title-description p {
+  color: gray;
+}
+
+#pricing .card .card-body p {
+  line-height: 12px;
+}
+
+#footer-end .container {
+  position: relative;
+}
+
+#footer-end .container::before {
+  content: "";
+  position: absolute;
+  width: 750px;
+  height: 1px;
+  background-color: gray;
+  top: -5px;
+}
+
+#footer-end .logo-content .logo img {
+  width: 24px;
+  height: 24px;
+}
+
+#footer-end .logo-content .content span {
+  font-size: 15px;
+}
+
+#footer-end .features ul, #footer-end .resources ul, #footer-end .about ul {
+  padding-left: 5px;
+}
+
+#footer-end .features ul li, #footer-end .resources ul li, #footer-end .about ul li {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#footer-end .features ul li:hover, #footer-end .resources ul li:hover, #footer-end .about ul li:hover {
+  margin-left: 20px;
+}
+
+#footer-end .features ul li a, #footer-end .resources ul li a, #footer-end .about ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer-end .features ul li a:hover, #footer-end .resources ul li a:hover, #footer-end .about ul li a:hover {
+  color: aqua;
+}
+
+.container .row {
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */

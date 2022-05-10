@@ -1,0 +1,100 @@
+@import "../scss/_variables.scss";
+*{
+    padding: 0px;
+    margin: 0px;
+    // box-sizing:content-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar{
+    // box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important;
+    .collapse{
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+#pricing{
+    .title-description{
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+        p{
+            color: $text-color;
+        }
+    }
+    .card{
+        .card-body{
+            p{
+                line-height: 12px;
+            }
+        }
+    }
+}
+
+#footer-end{
+    .container{
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 750px;
+            height: 1px;
+            background-color: gray;
+            top:-5px;
+        
+            }
+    }
+    
+    
+    // margin: 0 auto;
+    .logo-content{
+        .logo{
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+        .content{
+            span{
+                font-size: 15px;
+            }
+        }
+      
+    }
+    .features,.resources,.about{
+        ul{
+            padding-left: 5px;
+            li{
+                //   margin-right: 20px;
+                transition:all 1s;
+            &:hover{
+                  margin-left: 20px;
+                }
+                a{
+                    text-decoration: none;
+                    color:black;
+                  &:hover{
+                      color: aqua;
+                  }
+                }
+            }
+        }
+    }
+}
+
+.container{
+  
+    .row{
+        height: 50px;
+    }
+}
